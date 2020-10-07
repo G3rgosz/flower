@@ -15,7 +15,9 @@ print(nyolcszogTerulet())
 print(nyolcszogTerulet())
 """
 
-
-def korkerulet():
-    a=int(input("számot: "))
-    return a*2*3,14
+ 
+print("Mennyi a kör sugara?")
+sugar = float(input())
+ 
+print("Kerület =", 2 * sugar * math.pi)
+print("Terület =", sugar**2 * math.pi)
