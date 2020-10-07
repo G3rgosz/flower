@@ -28,3 +28,8 @@ Tesztelés
 print(nyolcszogTerulet())
 print(nyolcszogTerulet())
 """
+
+
+def korkerulet():
+    a=int(input("számot: "))
+    return a*2*3,14
