@@ -9,3 +9,8 @@ def nyolcszogTerulet():
 
 print("1-háromszög, 2-kör, 3-téglalap, 4-nyolcszág")
 
+"""
+Tesztelés
+print(nyolcszogTerulet())
+print(nyolcszogTerulet())
+"""
