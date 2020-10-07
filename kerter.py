@@ -1,15 +1,6 @@
 print("1-háromszög, 2-kör, 3-téglalap, 4-nyolcszög")
 szam = int(input("Kérem írja be a választott művelet számát: ")
 if (szam = 4):
-
-	def haromszogKerulet ():
-	a=float(input("Kérem a háromszög egyik odlalát[cm]: "))
-	b=float(input("Kérem a háromszög másik oldalát[cm]: "))
-	c=float(input("Kérem a háromszög harmadik oldalát[cm]: "))
-	return float(a+b+c)
-	print(haromszogKerulet())
-
-
 	def nyolcszogKerulet():
 		a=float(input("Kérlek add meg a nyolcszög oldalát [cm]: "))
 		return 8*a
@@ -33,7 +24,7 @@ if else (szam = 1):
 
 		c=float(input("Kérem a háromszög harmadik oldalát[cm]: "))
 		return float(a+b+c)
-		print(teglalapTerulet())
+	print(teglalapTerulet())
 else:
 	print(nincs ilyen lehetőség)
 
