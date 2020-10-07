@@ -1,0 +1,19 @@
+print("1-háromszög, 2-kör, 3-téglalap, 4-nyolcszög")
+szam = int(input("Kérem írja be a választott művelet számát: ")
+		return 8*a
+def nyolcszogTerulet():
+		a=float(input("Kérlek add meg a nyolcszög oldalát [cm]: "))
+		r=float(input("Kérlek add meg a nyolcszög sugarát [cm]: "))
+		return 4*a*r
+
+
+<<<<<<< HEAD
+=======
+print("1-háromszög, 2-kör, 3-téglalap, 4-nyolcszág")
+
+"""
+Tesztelés
+print(nyolcszogTerulet())
+print(nyolcszogTerulet())
+"""
+>>>>>>> 2c9a343f993aef1e3ca7855f9f3279b47d64dc02
