@@ -1,19 +1,50 @@
 print("1-háromszög, 2-kör, 3-téglalap, 4-nyolcszög")
 szam = int(input("Kérem írja be a választott művelet számát: ")
+<<<<<<< HEAD
+if (szam = 4):
+	def nyolcszogKerulet():
+=======
+
+	haromszogKerulet ():
+	a=float(input("Kérem a háromszög egyik odlalát[cm]: "))
+	b=float(input("Kérem a háromszög másik oldalát[cm]: "))
+	c=float(input("Kérem a háromszög harmadik oldalát[cm]: "))
+	return float(a+b+c)
+	print(teglalapTerulet())
+
+
+def nyolcszogKerulet():
+>>>>>>> fd0e434a57b5fd0ea22dc731fc2cfb5e0ae898b0
+		a=float(input("Kérlek add meg a nyolcszög oldalát [cm]: "))
 		return 8*a
-def nyolcszogTerulet():
+	def nyolcszogTerulet():
 		a=float(input("Kérlek add meg a nyolcszög oldalát [cm]: "))
 		r=float(input("Kérlek add meg a nyolcszög sugarát [cm]: "))
 		return 4*a*r
-
-
 <<<<<<< HEAD
-=======
-print("1-háromszög, 2-kör, 3-téglalap, 4-nyolcszág")
+	print(nyolcszogKerulet())
+	print(nyolcszogTerulet())
+else:
+	print(nincs ilyen lehetőség)
 
+=======
+
+def haromszogKerulet ():
+	a=float(input("Kérem a háromszög egyik odlalát[cm]: "))
+	b=float(input("Kérem a háromszög másik oldalát[cm]: "))
+	c=float(input("Kérem a háromszög harmadik oldalát[cm]: "))
+	return float(a+b+c)
+	print(teglalapTerulet())
+>>>>>>> fd0e434a57b5fd0ea22dc731fc2cfb5e0ae898b0
 """
 Tesztelés
 print(nyolcszogTerulet())
 print(nyolcszogTerulet())
 """
->>>>>>> 2c9a343f993aef1e3ca7855f9f3279b47d64dc02
+
+ 
+print("Mennyi a kör sugara?")
+sugar = float(input())
+ 
+print("Kerület =", 2 * sugar * math.pi)
+print("Terület =", sugar**2 * math.pi)
