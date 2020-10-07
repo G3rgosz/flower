@@ -1,1 +1,2 @@
-print("1-h�romsz�g, 2-k�r, 3-t�glalap, 4-nyolcsz�g")
+print("1-háromszög, 2-kör, 3-téglalap, 4-nyolcszög")
+szam = int(input("Kérem írja be a választott művelet számát: ")
