@@ -32,6 +32,6 @@ print(nyolcszogTerulet())
  
 print("Mennyi a kör sugara?")
 sugar = float(input())
- 
-print("Kerület =", 2 * sugar * math.pi)
-print("Terület =", sugar**2 * math.pi)
+
+print("Kerület =", 2 * sugar * 3.14,"cm")
+print("Terület =", sugar**2 * 3.14,"cm^2")
