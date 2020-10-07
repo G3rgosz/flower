@@ -17,14 +17,14 @@ elif (szam == 2):
 	print("Kerület =", 2 * sugar * 3.14,"cm")
 	print("Terület =", sugar**2 * 3.14,"cm^2")
 elif(szam == 1):
-	def haromszogKerulet ():
+	def haromszogKerulet():
 		a=float(input("Kérem a háromszög egyik odlalát[cm]: "))
 		b=float(input("Kérem a háromszög másik oldalát[cm]: "))
 
 
 		c=float(input("Kérem a háromszög harmadik oldalát[cm]: "))
 		return float(a+b+c)
-	print(teglalapTerulet())
+	print(haromszogKerulet())
 else:
 	print("nincs ilyen lehetőség")
 
